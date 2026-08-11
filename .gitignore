@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.db
+*.sqlite
+logs/
+secrets/
+backend/.env
+backend/vyzer.db
+tests/*.db
+# Local chat data (for development only - not for production)
+# Production uses backend database
+AppData/Local/Vyzer/

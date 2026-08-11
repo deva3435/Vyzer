@@ -1,0 +1,17 @@
+.env
+.git
+.venv
+venv
+__pycache__
+.pytest_cache
+*.pyc
+*.pyo
+*.db
+*.sqlite
+backend/.venv
+backend/vyzer.db
+logs
+secrets
+.gitignore
+README.md
+tests

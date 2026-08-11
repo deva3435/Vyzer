@@ -1,0 +1,11 @@
+fastapi>=0.116,<1
+uvicorn[standard]>=0.35,<1
+SQLAlchemy>=2.0.40,<3
+psycopg[binary]>=3.2,<4
+alembic>=1.16,<2
+PyJWT>=2.10,<3
+argon2-cffi>=25,<26
+email-validator>=2.2,<3
+pydantic>=2.11,<3
+httpx>=0.28,<1
+pytest>=8.4,<10

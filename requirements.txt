@@ -1,0 +1,9 @@
+streamlit>=1.42,<2
+openai>=1.40,<3
+pillow>=10,<13
+pypdf>=4,<7
+platformdirs>=4.2,<5
+python-dotenv>=1,<2
+requests>=2.31,<3
+reportlab>=4,<5
+pyperclip>=1.9,<2
