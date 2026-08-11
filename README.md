@@ -39,24 +39,26 @@ Verification is **fail-closed**: the UI cannot claim that code is verified based
 *Run locally*
 Requirements:
 
-Python
-Ollama
-At least one compatible local model
-Language toolchains only for languages you want to verify
+- Python
+- Ollama
+- At least one compatible local model
+- Language toolchains only for languages you want to verify
 
 After installing dependencies, the project can be started with:
 .\start_vyzer.ps1
+
 The launcher starts the backend, Streamlit, performs the database setup, checks Ollama, and opens Vyzer in the browser.
 
 ## Tech Stack
 
-Frontend: Streamlit
-Backend: FastAPI
-AI: Ollama
-Database: SQLite / PostgreSQL
-Authentication: JWT + Argon2
-Migrations: Alembic
-Testing: Pytest
+Frontend: Streamlit,
+Backend: FastAPI,
+AI: Ollama,
+Database: SQLite / PostgreSQL,
+Authentication: JWT + Argon2,
+Migrations: Alembic,
+Testing: Pytest,
+
 Languages verified: Python, C, C++, Java, JavaScript, TypeScript, Go, Rust*
 *subject to the required compiler/toolchain being installed.
 
